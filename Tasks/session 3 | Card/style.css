@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+main {
+  background-image: url("https://daily.jstor.org/wp-content/uploads/2020/06/why_you_should_learn_the_names_of_trees_1050x700.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.overlay {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(255,255,255, 0.2);
+}
+
+.card {
+  padding: 35px;
+  width: fit-content;
+  background-color: #FFF;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center
+}
+
+h2 {
+  text-transform:capitalize;
+  margin-bottom: 35px;
+  font-family: 'Dosis', sans-serif;
+  color: #333;
+  letter-spacing: 5px
+}
+
+.image {
+  margin-bottom: 35px;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  text-align: left;
+  color: #777;
+  font-size: 18px;
+  margin-bottom: 35px;
+}
+
+button {
+/*   display:block; */
+  background-color: #554768;
+  padding: 15px 50px;
+  outline: none;
+  border: none;
+  text-transform: uppercase;
+  color: #FFF;
+  font-size: 20px;
+  opacity: 0.8;
+  letter-spacing: 2px
+}
