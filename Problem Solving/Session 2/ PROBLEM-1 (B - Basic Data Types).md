@@ -1,5 +1,5 @@
 # Session 2 | Problem 1
-## A. Say Hello With C++
+## B - Basic Data Types
 
 ### The Problem:
 > The following lines show some C++ data types, their format specifiers and their most common bit widths:
@@ -19,7 +19,7 @@
 
 ### My Solution:
 > #### Using Node.js | [solution in codeforces](https://codeforces.com/group/MWSDmqGsZm/contest/219158/submission/184873990)
-> >  <img src="./images/session-1-problem-1-node.png">
+> >  <img src="./images/session-2-problem-1-node.png">
 ---
 
 
