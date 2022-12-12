@@ -1,4 +1,4 @@
-# Session 2 | Problem 1
+# Session 2 | Problem 2
 ## C - Simple Calculator
 
 ### The Problem:
