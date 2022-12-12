@@ -1,0 +1,39 @@
+body {
+  margin:0  
+}
+
+.header {
+  padding: 5px 50px;
+  margin: 0;
+  background-color: #eee;
+}
+
+.nav, 
+.logo,
+.paragraph-about,
+.image-about {
+  display: inline-block;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.hero {
+  background-image: url("https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bGFwdG9wJTIwY29kZXxlbnwwfHwwfHw%3D&w=1000&q=80");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #eee;
+  padding: 50px;
+}
+
+.paragraph-about {
+  width: 60%;
+}
+
+.image-about {
+  width: 38%;
+  border: 1px solid #999;
+}
+

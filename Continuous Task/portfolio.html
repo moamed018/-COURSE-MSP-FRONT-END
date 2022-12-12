@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="Mohamed Magdy" />
     <title>Portfolio | Mohamed Magdy</title>
+    <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
     <!-- Header & Nav -->
-    <div>
-      <h2>Mohamed Magdy</h2>
-      <ul>
+    <div class="header">
+      <h2 class="logo">Mohamed Magdy</h2>
+      <ul class="nav">
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Projects</a></li>
@@ -21,7 +22,7 @@
     </div>
 
     <!-- Hero Section-->
-    <div>
+    <div class="hero">
       <p>
         Hi, I'am Mohamed Magdy
         <br />
@@ -33,7 +34,7 @@
     <!-- About Section-->
     <div>
       <h2>About Me</h2>
-      <p>
+      <p class="paragraph-about">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -43,8 +44,10 @@
         mollit anim id est laborum
       </p>
 
-      <img src="https://cdn.dribbble.com/users/3398149/screenshots/9873711/media/81018d8c3595c458138d49bde716d2f9.jpg?compress=1&resize=400x300&vertical=top" />
-      
+      <img 
+       class="image-about" src="https://cdn.dribbble.com/users/3398149/screenshots/9873711/media/81018d8c3595c458138d49bde716d2f9.jpg?compress=1&resize=400x300&vertical=top"
+      />
+
       <table border="1">
         <caption>
           My Skills
@@ -109,6 +112,34 @@
       </ol>
     </div>
     <hr />
+
+    <!-- Contact Me Session2 -->
+    <h2>Contact Me</h2>
+    <form>
+      <div>
+        <label for="username">Your Name</label>
+        <input type="text" name="name" id="username" placeholder="Mohamed" />
+      </div>
+      <div>
+        <label for="email">Your E-mail</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="mohamed@gamil.com"
+        />
+      </div>
+      <div>
+        <label for="message">Your Message</label>
+        <textarea
+          name="message"
+          id="message"
+          cols="30"
+          rows="10"
+          placeholder="Messages"
+        ></textarea>
+      </div>
+    </form>
 
     <!-- Footer-->
     <div>
