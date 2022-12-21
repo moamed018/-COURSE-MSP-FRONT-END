@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/1010/63/716/portland-lighthouse-wallpaper-preview.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* .overlay {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(255,255,255, 0.2);
+} */
+
+.form-div {
+  padding: 0 35px 35px;
+  width: fit-content;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  box-shadow: 2px 2px 5px 3px #000;
+  min-width: 350px;
+}
+
+h2 {
+  text-transform: capitalize;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  font-family: "Dosis", sans-serif;
+  color: rgb(245, 204, 204);
+  letter-spacing: 2px;
+}
+
+.image {
+  /* margin-bottom: 35px; */
+  width: 100px;
+  height: 100px;
+  /* position: absolute;
+  top: -50%;
+  left: -50%; */
+  /* display: flex;
+  justify-content: center; */
+  transform: translateY(-50%);
+  margin: auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  text-align: left;
+  color: #777;
+  font-size: 18px;
+  margin-bottom: 35px;
+}
+
+button {
+  /*   display:block; */
+  background-color: #554768;
+  padding: 15px 50px;
+  outline: none;
+  border: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 20px;
+  opacity: 0.8;
+  letter-spacing: 2px;
+}
+
+.input-password,
+.input-email {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+}
+
+#email,
+#password {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #fff;
+  padding: 10px 5px;
+  color: inherit;
+  font-size: 16px;
+}
+
+label {
+  display: block;
+  text-transform: uppercase;
+  text-align: left;
+  /* font-size: 18px; */
+  letter-spacing: 1px;
+  margin-bottom: 2px;
+}
+
+input[type="submit"] {
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+  background-color: #42692f;
+  color: inherit;
+  font-size: 18px;
+  margin-bottom: 20px;
+  border-radius: 100px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+a {
+  text-align: left;
+  font-size: 14px;
+  color: inherit;
+  display: block;
+  width: fit-content;
+  text-transform: capitalize;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
