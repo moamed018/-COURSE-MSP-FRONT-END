@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- displays site properly based on user's device -->
+
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/images/favicon-32x32.png"
+        />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="style.css" />
+
+        <title>Frontend Mentor | Results summary component</title>
+    </head>
+    <body>
+        <section>
+            <div class="front">
+                <h4 class="div-title">Your Result</h4>
+                <div class="circle">
+                    <h2 class="circle-head">76</h2>
+                    of 100
+                </div>
+                <h3 class="name">Great</h3>
+                <p class="front-text">
+                    You scored higher than 65% of the people who have taken
+                    these tests.
+                </p>
+            </div>
+            <div class="back">
+                <h3 class="div-title">Summary</h3>
+
+                <ul>
+                    <li class="list-item reaction">
+                        <p class="name-item">
+                            <img
+                                src="./images/icon-reaction.svg"
+                                class="icon"
+                            />
+                            Reaction
+                        </p>
+                        <p class="value-item">
+                            <span class="bold">80</span> / 100
+                        </p>
+                    </li>
+
+                    <li class="list-item memory">
+                        <p class="name-item">
+                            <img src="./images/icon-memory.svg" class="icon" />
+                            Memory
+                        </p>
+                        <p class="value-item">
+                            <span class="bold">92</span> / 100
+                        </p>
+                    </li>
+
+                    <li class="list-item verbal">
+                        <p class="name-item">
+                            <img src="./images/icon-verbal.svg" class="icon" />
+                            Verbal
+                        </p>
+                        <p class="value-item">
+                            <span class="bold">61</span> / 100
+                        </p>
+                    </li>
+
+                    <li class="list-item visual">
+                        <p class="name-item">
+                            <img src="./images/icon-visual.svg" class="icon" />
+                            Visual
+                        </p>
+                        <p class="value-item">
+                            <span class="bold">72</span> / 100
+                        </p>
+                    </li>
+                </ul>
+
+                <button>Continue</button>
+            </div>
+        </section>
+    </body>
+</html>
