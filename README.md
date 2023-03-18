@@ -17,3 +17,8 @@
 
 ## session 4
 4.1- [Portfolio](./Continuous%20Task/) && 4.2- [Problem Solving](./Problem%20Solving/Session%204/) && 4.3- [Log in Form](./Tasks/session%204_login_form/)
+
+---
+
+## session 6
+6.1- [Portfolio](./Continuous%20Task/) && 6.2- [Problem Solving](./Problem%20Solving/Session%206/) && 6.3- [Flip Card](./Tasks/Session%206%20%7C%20Flip%20Card/)
