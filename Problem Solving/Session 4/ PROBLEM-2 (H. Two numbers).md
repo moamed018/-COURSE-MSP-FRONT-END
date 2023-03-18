@@ -23,7 +23,7 @@
 
 ### My Solution:
 > #### Using Python | [solution in codeforces](https://codeforces.com/group/MWSDmqGsZm/contest/219158/submission/186034282)
-> >  <img src="./images/session-4-problem-2-python.png">
+> >  <img src="./images/session-4-problem-2-python_1.png">
 ---
 
 
