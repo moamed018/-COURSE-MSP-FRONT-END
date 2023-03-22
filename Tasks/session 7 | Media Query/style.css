@@ -1,0 +1,32 @@
+.parent {
+  margin: 20px auto;
+  width:80%;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  gap:10px;
+  
+}
+.parent > div {
+  width: 22%;
+  padding: 5px;
+  background-color: red;
+  color:#fff;
+  text-align:center;
+}
+
+@media (max-width: 750px) {
+  .parent > div {
+    width: 45%;
+    background-color: #FEE4C3;
+    color: #000
+  }
+}
+
+@media (max-width: 500px) {
+  .parent > div {
+    width: 95%;
+    background-color: #8A2BE1;
+    color: #fff
+  }
+}
