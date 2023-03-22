@@ -22,3 +22,8 @@
 
 ## session 6
 6.1- [Portfolio](./Continuous%20Task/) && 6.2- [Problem Solving](./Problem%20Solving/Session%206/) && 6.3- [Flip Card](./Tasks/Session%206%20%7C%20Flip%20Card/)
+
+---
+
+## session 7
+7.1- [Portfolio](./Continuous%20Task/) && 7.2- [Problem Solving](./Problem%20Solving/Session%207/) && 7.3- [Flip Card](./Tasks/session%207%20%7C%20Media%20Query/)
